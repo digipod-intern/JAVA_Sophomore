@@ -39,8 +39,12 @@
 */
 
 /* Assignment Operators
-    * =, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=, >>>=
+    = 
 */
+
+/*Short-hand operators
+ * +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=, >>>=
+ */
 
 /* Misc Operators
     * Conditional Operator: ? :
@@ -54,11 +58,11 @@
 class calc {
     public static void main(String[] args) {
         int a = 24;
-        int b = 56;
+        int b = 5;
+        //Expressions
+        double Division = (int) a/b; 
 
-        int sum = a+b;
-
-        System.out.println("The sum of " + a + " and " + b + " is " + sum + ".");
+        System.out.println("The sum of " + a + " and " + b + " is " + Division + ".");
         System.out.print("The sum of " + a + " and " + b + " is " + (a+b) + "."); // Method 1
     }
 }
